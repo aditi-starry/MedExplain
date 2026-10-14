@@ -50,10 +50,13 @@ ENABLE_OCR = os.getenv("ENABLE_OCR", "true").strip().lower() in {"1", "true", "y
 # CORS configuration: comma-separated list of allowed frontend origins
 ALLOWED_ORIGINS = _env_list(
     "ALLOWED_ORIGINS",
-    "http://localhost:5173,http://127.0.0.1:5173",
+    "http://localhost:5173,http://127.0.0.1:5173,http://localhost:5174,http://127.0.0.1:5174",
 )
 # Optional regex for preview deployments, e.g. https://medexplain-.*\.vercel\.app
 ALLOWED_ORIGIN_REGEX = os.getenv("ALLOWED_ORIGIN_REGEX", "").strip() or None
+# In development, accept the Vite dev server on any local port (it moves to 5174, 5175... when 5173 is busy)
+if ALLOWED_ORIGIN_REGEX is None and ENVIRONMENT == "development":
+    ALLOWED_ORIGIN_REGEX = r"^http://(localhost|127\.0\.0\.1):\d+$"
 
 # Simple per-client rate limits (requests per minute)
 RATE_LIMIT_UPLOADS_PER_MINUTE = _env_int("RATE_LIMIT_UPLOADS_PER_MINUTE", 10)
