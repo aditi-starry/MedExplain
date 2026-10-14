@@ -1,0 +1,153 @@
+{
+  "collection": "MedlinePlus Medical Tests - blood count",
+  "publisher": "MedlinePlus, U.S. National Library of Medicine",
+  "license": "MedlinePlus medical test information is public domain (https://medlineplus.gov/about/using/usingcontent/). Passages are short paraphrased summaries, not verbatim copies. Source: MedlinePlus, National Library of Medicine.",
+  "retrieved": "2026-10-14",
+  "documents": [
+    {
+      "id": "mlp-lab-results",
+      "title": "How to Understand Your Lab Results",
+      "url": "https://medlineplus.gov/lab-tests/how-to-understand-your-lab-results/",
+      "lastUpdated": "2025-09-04",
+      "parameters": [],
+      "passages": [
+        {"id": "mlp-lab-results-1", "topics": ["reference range", "interpretation", "general"],
+         "text": "A reference range is the span of results considered normal for a test, based on results from large groups of healthy people. Lab reports show whether a result falls inside or outside this range."},
+        {"id": "mlp-lab-results-2", "topics": ["interpretation", "general", "doctor"],
+         "text": "Lab tests do not give a complete picture of health on their own. Providers combine results with a physical exam, health history, family history and imaging, so it is important to discuss what results mean for you with your provider."}
+      ]
+    },
+    {
+      "id": "mlp-cbc",
+      "title": "Complete Blood Count (CBC)",
+      "url": "https://medlineplus.gov/lab-tests/complete-blood-count-cbc/",
+      "lastUpdated": "2024-10-15",
+      "parameters": ["Hemoglobin", "Hematocrit", "Red Blood Cells", "White Blood Cells", "Platelet Count", "Mean Corpuscular Volume"],
+      "passages": [
+        {"id": "mlp-cbc-1", "topics": ["definition", "panel"],
+         "text": "A complete blood count (CBC) is a group of tests measuring the cells in blood: red blood cells, white blood cells, platelets, hemoglobin, hematocrit and mean corpuscular volume (MCV)."},
+        {"id": "mlp-cbc-2", "topics": ["relationship", "interpretation"],
+         "text": "Abnormal levels of red blood cells, hemoglobin or hematocrit can be associated with dehydration, anemia, heart disease or too little iron. Results outside the range do not always mean a condition that needs treatment; diet, activity, medicines, menstrual periods and fluid intake can affect results."}
+      ]
+    },
+    {
+      "id": "mlp-hemoglobin",
+      "title": "Hemoglobin Test",
+      "url": "https://medlineplus.gov/lab-tests/hemoglobin-test/",
+      "lastUpdated": "2024-10-27",
+      "parameters": ["Hemoglobin"],
+      "passages": [
+        {"id": "mlp-hemoglobin-1", "topics": ["definition"],
+         "text": "Hemoglobin is an iron-rich protein in red blood cells that carries oxygen from the lungs to the rest of the body. A hemoglobin test is often used to check for anemia and is usually measured as part of a complete blood count."},
+        {"id": "mlp-hemoglobin-2", "topics": ["low", "interpretation"],
+         "text": "Low hemoglobin can be seen with different types of anemia, iron deficiency, blood loss, or a lack of nutrients such as iron or vitamin B12. The test alone cannot show what is causing an abnormal level."},
+        {"id": "mlp-hemoglobin-3", "topics": ["high", "interpretation"],
+         "text": "High hemoglobin can be associated with lung disease, heart disease, sleep apnea, or living at a high altitude. Diet, activity level, certain medicines, dehydration and smoking can also affect results, and an abnormal level does not always mean a condition that needs treatment."},
+        {"id": "mlp-hemoglobin-4", "topics": ["reference range", "interpretation"],
+         "text": "Hemoglobin reference ranges can vary with the laboratory and with age and sex. To interpret hemoglobin, providers also consider symptoms, medical history and other blood test results."}
+      ]
+    },
+    {
+      "id": "mlp-hematocrit",
+      "title": "Hematocrit Test",
+      "url": "https://medlineplus.gov/lab-tests/hematocrit-test/",
+      "lastUpdated": "2024-11-25",
+      "parameters": ["Hematocrit"],
+      "passages": [
+        {"id": "mlp-hematocrit-1", "topics": ["definition"],
+         "text": "Hematocrit is the percentage of blood made up of red blood cells. For example, a result of 42 means 42% of the blood volume is red blood cells. It is often measured as part of a complete blood count."},
+        {"id": "mlp-hematocrit-2", "topics": ["low", "high", "interpretation"],
+         "text": "A lower hematocrit can be associated with blood loss or anemia, and pregnancy can lower it. A higher hematocrit can be associated with dehydration (its most common cause), lung or heart conditions, or living at high altitude. Normal levels vary with sex, age, smoking and altitude."}
+      ]
+    },
+    {
+      "id": "mlp-rbc",
+      "title": "Red Blood Cell (RBC) Count",
+      "url": "https://medlineplus.gov/lab-tests/red-blood-cell-rbc-count/",
+      "lastUpdated": "2024-10-07",
+      "parameters": ["Red Blood Cells"],
+      "passages": [
+        {"id": "mlp-rbc-1", "topics": ["definition"],
+         "text": "A red blood cell (RBC) count measures the number of red blood cells, which contain hemoglobin and carry oxygen through the body. It is almost always part of a complete blood count and helps identify red blood cell disorders such as anemia."},
+        {"id": "mlp-rbc-2", "topics": ["low", "high", "interpretation", "doctor"],
+         "text": "A low RBC count can be associated with anemia, blood loss, malnutrition, kidney failure or pregnancy, among other causes. A high count can be associated with dehydration, heart or lung disease, or high altitude. Follow-up tests may include a reticulocyte count, iron tests or vitamin B tests."}
+      ]
+    },
+    {
+      "id": "mlp-rbc-indices",
+      "title": "Red Blood Cell (RBC) Indices",
+      "url": "https://medlineplus.gov/lab-tests/red-blood-cell-rbc-indices/",
+      "lastUpdated": "2024-10-07",
+      "parameters": ["Mean Corpuscular Volume", "Mean Corpuscular Hemoglobin", "MCHC", "Red Cell Distribution Width"],
+      "passages": [
+        {"id": "mlp-rbc-indices-1", "topics": ["definition", "panel"],
+         "text": "Red blood cell indices describe red blood cells: MCV is their average size, MCH is the average amount of hemoglobin in one red cell, MCHC is how concentrated hemoglobin is inside red cells, and RDW is how much red cell size varies. They are part of a complete blood count."},
+        {"id": "mlp-rbc-indices-2", "topics": ["low", "high", "interpretation", "relationship"],
+         "text": "Lower-than-normal MCH or MCHC can be seen with iron deficiency anemia; a higher MCH can be seen with anemia from vitamin B deficiency. Providers interpret the indices together with other blood tests, symptoms and history rather than one value alone."}
+      ]
+    },
+    {
+      "id": "mlp-mcv",
+      "title": "MCV (Mean Corpuscular Volume)",
+      "url": "https://medlineplus.gov/lab-tests/mcv-mean-corpuscular-volume/",
+      "lastUpdated": "2024-12-02",
+      "parameters": ["Mean Corpuscular Volume"],
+      "passages": [
+        {"id": "mlp-mcv-1", "topics": ["definition", "low", "high"],
+         "text": "MCV measures the average size of red blood cells. Smaller-than-normal cells can be seen with iron deficiency anemia or thalassemia, and larger-than-normal cells with low vitamin B12 or folate or with liver disease. An MCV test alone cannot diagnose any disease."},
+        {"id": "mlp-mcv-2", "topics": ["relationship", "interpretation"],
+         "text": "It is possible to have anemia with a normal MCV. MCV is usually read together with the red blood cell count and hemoglobin measurements as part of the red blood cell indices."}
+      ]
+    },
+    {
+      "id": "mlp-rdw",
+      "title": "RDW (Red Cell Distribution Width)",
+      "url": "https://medlineplus.gov/lab-tests/rdw-red-cell-distribution-width/",
+      "lastUpdated": "2024-10-15",
+      "parameters": ["Red Cell Distribution Width"],
+      "passages": [
+        {"id": "mlp-rdw-1", "topics": ["definition", "high", "low", "relationship"],
+         "text": "RDW measures how much red blood cells vary in size. A high RDW means sizes vary more than usual; a low RDW means cells are similar in size and is not usually a concern. Providers read RDW together with other blood tests to get a fuller picture of the red blood cells."}
+      ]
+    },
+    {
+      "id": "mlp-wbc",
+      "title": "White Blood Count (WBC)",
+      "url": "https://medlineplus.gov/lab-tests/white-blood-count-wbc/",
+      "lastUpdated": "2024-08-06",
+      "parameters": ["White Blood Cells"],
+      "passages": [
+        {"id": "mlp-wbc-1", "topics": ["definition"],
+         "text": "A white blood count measures the total number of white blood cells (leukocytes), which are part of the immune system and help the body fight infections and other diseases."},
+        {"id": "mlp-wbc-2", "topics": ["high", "low", "interpretation", "relationship"],
+         "text": "A high white count can be associated with infection, inflammation, allergy, tissue damage, smoking, stress, certain medicines or pregnancy. A low white count can be associated with bone marrow problems, some medicines such as chemotherapy, or immune disorders. A white count alone cannot confirm a diagnosis and is usually read with other tests such as a blood differential."}
+      ]
+    },
+    {
+      "id": "mlp-differential",
+      "title": "Blood Differential",
+      "url": "https://medlineplus.gov/lab-tests/blood-differential/",
+      "lastUpdated": "2024-10-09",
+      "parameters": ["Neutrophils", "Lymphocytes", "Monocytes", "Eosinophils", "Basophils", "White Blood Cells"],
+      "passages": [
+        {"id": "mlp-differential-1", "topics": ["definition", "panel", "relationship"],
+         "text": "A blood differential measures the amount or percentage of each of the five types of white blood cells: neutrophils (main defence against infection), lymphocytes (B and T cells), monocytes, eosinophils (parasites, allergies, inflammation) and basophils (allergic reactions)."},
+        {"id": "mlp-differential-2", "topics": ["interpretation", "high", "low"],
+         "text": "Differential results can be higher or lower than normal for many reasons, including infections, inflammatory conditions, allergic reactions and certain medicines; injury, extreme stress, smoking and alcohol can also affect them. Abnormal results do not always mean a condition needing treatment."}
+      ]
+    },
+    {
+      "id": "mlp-platelets",
+      "title": "Platelet Tests",
+      "url": "https://medlineplus.gov/lab-tests/platelet-tests/",
+      "lastUpdated": "2024-08-15",
+      "parameters": ["Platelet Count"],
+      "passages": [
+        {"id": "mlp-platelets-1", "topics": ["definition", "low", "high"],
+         "text": "Platelets (thrombocytes) are small blood cells essential for blood clotting. A lower-than-normal count (thrombocytopenia) can lead to more bleeding after an injury, and a higher-than-normal count (thrombocytosis) can make blood clot more than needed."},
+        {"id": "mlp-platelets-2", "topics": ["low", "high", "interpretation"],
+         "text": "A low platelet count can be associated with viral infections, autoimmune disease, bone marrow problems, cirrhosis or vitamin B12 deficiency, and a mild form is common in pregnancy. A high count can be associated with anemia, infection, inflammatory conditions or blood loss."}
+      ]
+    }
+  ]
+}

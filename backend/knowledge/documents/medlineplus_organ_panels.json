@@ -1,0 +1,237 @@
+{
+  "collection": "MedlinePlus Medical Tests - liver, lipids, thyroid, iron, vitamins and inflammation",
+  "publisher": "MedlinePlus, U.S. National Library of Medicine",
+  "license": "MedlinePlus medical test information is public domain (https://medlineplus.gov/about/using/usingcontent/). Passages are short paraphrased summaries, not verbatim copies. Source: MedlinePlus, National Library of Medicine.",
+  "retrieved": "2026-10-14",
+  "documents": [
+    {
+      "id": "mlp-bilirubin",
+      "title": "Bilirubin Blood Test",
+      "url": "https://medlineplus.gov/lab-tests/bilirubin-blood-test/",
+      "lastUpdated": "2024-10-27",
+      "parameters": ["Total Bilirubin", "Direct Bilirubin", "Indirect Bilirubin"],
+      "passages": [
+        {"id": "mlp-bilirubin-1", "topics": ["definition", "relationship"],
+         "text": "Bilirubin is a yellowish substance made when the body breaks down old red blood cells. A healthy liver removes most of it through bile; too much in the blood can cause jaundice (yellow skin and eyes). Tests may report total, direct (conjugated) and indirect (unconjugated) bilirubin."},
+        {"id": "mlp-bilirubin-2", "topics": ["high", "low", "interpretation"],
+         "text": "High bilirubin can be associated with liver disease, blocked bile ducts or hemolytic anemia, but some medicines, foods or strenuous exercise can also raise it. Low bilirubin is not usually a cause for concern. Bilirubin is only one measure of liver health."}
+      ]
+    },
+    {
+      "id": "mlp-alt",
+      "title": "ALT Blood Test",
+      "url": "https://medlineplus.gov/lab-tests/alt-blood-test/",
+      "lastUpdated": "2024-11-05",
+      "parameters": ["ALT (SGPT)"],
+      "passages": [
+        {"id": "mlp-alt-1", "topics": ["definition"],
+         "text": "ALT (alanine transaminase, also called SGPT) is an enzyme found mainly in the liver. Blood levels are usually low, but damaged liver cells release ALT into the bloodstream."},
+        {"id": "mlp-alt-2", "topics": ["high", "interpretation", "relationship"],
+         "text": "High ALT may be a sign of liver injury, but it does not always mean a condition needing treatment; age, sex, weight, medicines, supplements and intense exercise can affect it. ALT is usually measured with AST and compared with other liver tests."}
+      ]
+    },
+    {
+      "id": "mlp-ast",
+      "title": "AST Test",
+      "url": "https://medlineplus.gov/lab-tests/ast-test/",
+      "lastUpdated": "2024-11-05",
+      "parameters": ["AST (SGOT)"],
+      "passages": [
+        {"id": "mlp-ast-1", "topics": ["definition", "high", "interpretation"],
+         "text": "AST (aspartate aminotransferase, also called SGOT) is an enzyme found mainly in the liver but also in the heart, muscles and other tissues. High AST may come from liver problems or other causes; pregnancy, exercise, medicines, age and sex can affect results. Low AST is usually considered normal."},
+        {"id": "mlp-ast-2", "topics": ["relationship"],
+         "text": "AST is often ordered together with ALT. High AST and/or ALT may mean some type of liver damage, which providers assess with other tests."}
+      ]
+    },
+    {
+      "id": "mlp-alp",
+      "title": "Alkaline Phosphatase",
+      "url": "https://medlineplus.gov/lab-tests/alkaline-phosphatase/",
+      "lastUpdated": "2024-11-05",
+      "parameters": ["Alkaline Phosphatase"],
+      "passages": [
+        {"id": "mlp-alp-1", "topics": ["definition", "high", "relationship"],
+         "text": "Alkaline phosphatase (ALP) is an enzyme found in many tissues, especially the liver, bile ducts and bones. An ALP test cannot tell which tissue the ALP came from, so a high result is often looked at alongside other liver tests."},
+        {"id": "mlp-alp-2", "topics": ["interpretation"],
+         "text": "Pregnancy can raise ALP, children and teens often have higher levels because their bones are growing, a fatty meal before the test may slightly raise it, and some medicines can raise or lower it."}
+      ]
+    },
+    {
+      "id": "mlp-protein-ag",
+      "title": "Total Protein and Albumin/Globulin (A/G) Ratio",
+      "url": "https://medlineplus.gov/lab-tests/total-protein-and-albumin-globulin-a-g-ratio/",
+      "lastUpdated": "2024-10-20",
+      "parameters": ["Total Protein", "Albumin", "Globulin", "A/G Ratio"],
+      "passages": [
+        {"id": "mlp-protein-ag-1", "topics": ["definition", "relationship"],
+         "text": "Total protein measures all protein in the blood, mainly albumin and globulins. The albumin/globulin (A/G) ratio compares the two. Together they help check liver and kidney function and nutrition."},
+        {"id": "mlp-protein-ag-2", "topics": ["low", "high", "interpretation"],
+         "text": "Low total protein can be associated with liver disease, kidney disease, malnutrition or malabsorption. High total protein can be associated with certain infections or blood cancers. Providers interpret these results with symptoms, history and other tests."}
+      ]
+    },
+    {
+      "id": "mlp-albumin",
+      "title": "Albumin Blood Test",
+      "url": "https://medlineplus.gov/lab-tests/albumin-blood-test/",
+      "lastUpdated": "2024-12-09",
+      "parameters": ["Albumin"],
+      "passages": [
+        {"id": "mlp-albumin-1", "topics": ["definition", "low", "high"],
+         "text": "Albumin is a protein made by the liver that keeps fluid inside blood vessels and carries hormones, vitamins and enzymes. Low albumin can be associated with liver or kidney disease, malnutrition or infection; high albumin may be a sign of dehydration. An albumin test alone cannot diagnose a condition."}
+      ]
+    },
+    {
+      "id": "mlp-globulin",
+      "title": "Globulin Test",
+      "url": "https://medlineplus.gov/lab-tests/globulin-test/",
+      "lastUpdated": "2024-11-04",
+      "parameters": ["Globulin"],
+      "passages": [
+        {"id": "mlp-globulin-1", "topics": ["definition", "low", "high"],
+         "text": "Globulins are blood proteins, some made by the liver and some by the immune system, involved in liver and kidney function, clotting and fighting infection. Low globulin can be associated with liver or kidney disease or malnutrition; high globulin with infection, inflammation or immune disorders. Medicines, dehydration and pregnancy can also affect results."}
+      ]
+    },
+    {
+      "id": "mlp-liver-panel",
+      "title": "Liver Function Tests",
+      "url": "https://medlineplus.gov/lab-tests/liver-function-tests/",
+      "lastUpdated": "2023-12-05",
+      "parameters": ["ALT (SGPT)", "AST (SGOT)", "Alkaline Phosphatase", "Total Bilirubin", "Albumin", "Total Protein"],
+      "passages": [
+        {"id": "mlp-liver-panel-1", "topics": ["panel", "relationship", "interpretation", "doctor"],
+         "text": "Liver function tests measure substances such as albumin, total protein, ALP, ALT, AST and bilirubin. When results are abnormal, providers compare all of them, looking for patterns. Liver tests alone usually cannot diagnose specific diseases, and abnormal results after a recent illness may be temporary, so tests may be repeated."}
+      ]
+    },
+    {
+      "id": "mlp-cholesterol",
+      "title": "Cholesterol Levels",
+      "url": "https://medlineplus.gov/lab-tests/cholesterol-levels/",
+      "lastUpdated": "2024-10-15",
+      "parameters": ["Total Cholesterol", "HDL Cholesterol", "LDL Cholesterol", "VLDL Cholesterol", "Triglycerides"],
+      "passages": [
+        {"id": "mlp-cholesterol-1", "topics": ["definition", "panel", "relationship"],
+         "text": "A cholesterol test (lipid panel) measures total cholesterol, LDL ('bad') cholesterol, HDL ('good') cholesterol and triglycerides. Total cholesterol includes HDL and LDL. VLDL mainly carries triglycerides and is often estimated from the triglyceride level."},
+        {"id": "mlp-cholesterol-2", "topics": ["high", "low", "interpretation"],
+         "text": "Too much LDL cholesterol increases the risk of plaque build-up in the arteries and heart disease. A higher HDL level may help lower the risk of heart attack or stroke. In general, low LDL and high HDL are better for heart health."},
+        {"id": "mlp-cholesterol-3", "topics": ["reference range"],
+         "text": "For adults aged 20 or older, healthy levels listed by MedlinePlus are total cholesterol below 200 mg/dL and LDL below 100 mg/dL; HDL of 60 mg/dL or more is best, with low HDL defined as below 40 mg/dL for men and below 50 mg/dL for women. The LDL on a report may be 'calculated' from total cholesterol, HDL and triglycerides."}
+      ]
+    },
+    {
+      "id": "mlp-triglycerides",
+      "title": "Triglycerides Test",
+      "url": "https://medlineplus.gov/lab-tests/triglycerides-test/",
+      "lastUpdated": "2024-12-09",
+      "parameters": ["Triglycerides"],
+      "passages": [
+        {"id": "mlp-triglycerides-1", "topics": ["definition", "high"],
+         "text": "Triglycerides are a type of fat in the blood that the body uses for energy; extra calories are stored as triglycerides. High levels may increase the risk of heart disease and stroke, and very high levels increase the risk of pancreatitis. High triglycerides usually cause no symptoms."},
+        {"id": "mlp-triglycerides-2", "topics": ["reference range", "relationship"],
+         "text": "Common adult categories are below 150 mg/dL (healthy), 150-199 (borderline high), 200-499 (high) and 500 mg/dL or more (very high). Risk is greater when high triglycerides occur with high LDL and/or low HDL cholesterol."}
+      ]
+    },
+    {
+      "id": "mlp-tsh",
+      "title": "TSH (Thyroid-stimulating hormone) Test",
+      "url": "https://medlineplus.gov/lab-tests/tsh-thyroid-stimulating-hormone-test/",
+      "lastUpdated": "2024-10-30",
+      "parameters": ["TSH"],
+      "passages": [
+        {"id": "mlp-tsh-1", "topics": ["definition", "relationship"],
+         "text": "TSH is made by the pituitary gland and tells the thyroid how much hormone to make. When thyroid hormone levels are low, TSH usually rises; when they are high, TSH usually falls."},
+        {"id": "mlp-tsh-2", "topics": ["interpretation", "doctor"],
+         "text": "A TSH result can suggest whether the thyroid is making too much or too little hormone but cannot explain why. Providers often order T4 and T3 tests next. Serious unrelated illness, older age and pregnancy can also affect TSH."}
+      ]
+    },
+    {
+      "id": "mlp-t4",
+      "title": "Thyroxine (T4) Test",
+      "url": "https://medlineplus.gov/lab-tests/thyroxine-t4-test/",
+      "lastUpdated": "2024-12-12",
+      "parameters": ["Free T4"],
+      "passages": [
+        {"id": "mlp-t4-1", "topics": ["definition", "relationship"],
+         "text": "T4 (thyroxine) is the main hormone made by the thyroid; free T4 is the active form that enters tissues. A T4 test alone cannot diagnose thyroid problems, so it is usually done with a TSH test."}
+      ]
+    },
+    {
+      "id": "mlp-t3",
+      "title": "Triiodothyronine (T3) Tests",
+      "url": "https://medlineplus.gov/lab-tests/triiodothyronine-t3-tests/",
+      "lastUpdated": "2024-01-10",
+      "parameters": ["Free T3"],
+      "passages": [
+        {"id": "mlp-t3-1", "topics": ["definition", "relationship", "interpretation"],
+         "text": "T3 is one of the two thyroid hormones; free T3 is the active form. T3 results are usually compared with TSH and T4, because different combinations of high, low and normal results point to different thyroid situations."}
+      ]
+    },
+    {
+      "id": "mlp-vitamin-d",
+      "title": "Vitamin D Test",
+      "url": "https://medlineplus.gov/lab-tests/vitamin-d-test/",
+      "lastUpdated": "2024-12-04",
+      "parameters": ["Vitamin D"],
+      "passages": [
+        {"id": "mlp-vitamin-d-1", "topics": ["definition", "low", "high", "reference range", "relationship"],
+         "text": "Vitamin D helps the body absorb calcium for bones and teeth. Most tests measure 25-hydroxyvitamin D. Results are often described as deficient, insufficient, sufficient or possibly toxic. Low levels may relate to diet, limited sunlight, absorption problems or medicines; very high levels usually come from too many supplements."}
+      ]
+    },
+    {
+      "id": "mlp-vitamin-b",
+      "title": "Vitamin B Test",
+      "url": "https://medlineplus.gov/lab-tests/vitamin-b-test/",
+      "lastUpdated": "2026-08-20",
+      "parameters": ["Vitamin B12"],
+      "passages": [
+        {"id": "mlp-vitamin-b-1", "topics": ["definition", "relationship", "interpretation"],
+         "text": "Vitamin B12 (cobalamin) helps keep nerves and blood cells healthy, and B12 is often measured with folate when anemia is being investigated. Inflammation and certain medicines can affect results, and labs use different normal ranges."}
+      ]
+    },
+    {
+      "id": "mlp-ferritin",
+      "title": "Ferritin Blood Test",
+      "url": "https://medlineplus.gov/lab-tests/ferritin-blood-test/",
+      "lastUpdated": "2025-03-18",
+      "parameters": ["Ferritin"],
+      "passages": [
+        {"id": "mlp-ferritin-1", "topics": ["definition", "low", "high", "relationship"],
+         "text": "Ferritin is a protein that stores iron, so a ferritin test shows how much iron is stored in the body. Low ferritin may mean iron deficiency. High ferritin can come from too much iron but also from inflammation, liver disease and other conditions, so it is often read with other iron tests."}
+      ]
+    },
+    {
+      "id": "mlp-iron",
+      "title": "Iron Tests",
+      "url": "https://medlineplus.gov/lab-tests/iron-tests/",
+      "lastUpdated": "2024-04-10",
+      "parameters": ["Serum Iron", "Ferritin"],
+      "passages": [
+        {"id": "mlp-iron-1", "topics": ["definition", "relationship"],
+         "text": "Iron is needed to make hemoglobin. Iron tests include serum iron, transferrin, total iron-binding capacity (TIBC) and ferritin, and providers may order several together. Not having enough iron is the most common cause of anemia."},
+        {"id": "mlp-iron-2", "topics": ["interpretation", "low", "high", "test preparation"],
+         "text": "Blood iron varies through the day and may be higher in the morning. Low iron results may relate to iron deficiency anemia or other anemias; high results to iron overload or liver disease. Some medicines, including birth control pills, can affect iron levels."}
+      ]
+    },
+    {
+      "id": "mlp-esr",
+      "title": "Erythrocyte Sedimentation Rate (ESR)",
+      "url": "https://medlineplus.gov/lab-tests/erythrocyte-sedimentation-rate-esr/",
+      "lastUpdated": "2024-12-02",
+      "parameters": ["ESR"],
+      "passages": [
+        {"id": "mlp-esr-1", "topics": ["definition", "high", "interpretation", "relationship"],
+         "text": "ESR measures how quickly red blood cells settle in a test tube; inflammation makes them clump and settle faster. A high ESR can indicate inflammation but cannot identify its cause. Age, sex, pregnancy, menstrual cycle and some medicines affect ESR, and a CRP test is often done alongside it."}
+      ]
+    },
+    {
+      "id": "mlp-crp",
+      "title": "C-Reactive Protein (CRP) Test",
+      "url": "https://medlineplus.gov/lab-tests/c-reactive-protein-crp-test/",
+      "lastUpdated": "2025-06-11",
+      "parameters": ["CRP"],
+      "passages": [
+        {"id": "mlp-crp-1", "topics": ["definition", "high", "interpretation"],
+         "text": "CRP is a protein the liver makes in response to inflammation. Healthy people usually have very low CRP; higher levels suggest inflammation but not its cause or location. A standard CRP test differs from a high-sensitivity (hs-CRP) test used to estimate heart disease risk."}
+      ]
+    }
+  ]
+}

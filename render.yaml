@@ -1,0 +1,32 @@
+# Render Blueprint for the MedExplain AI backend (free web service).
+# Free services spin down after 15 min idle and have an ephemeral filesystem:
+# uploaded reports are lost on restart, which matches the short retention policy.
+services:
+  - type: web
+    name: medexplain-api
+    runtime: python
+    plan: free
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT --proxy-headers --forwarded-allow-ips='*'
+    healthCheckPath: /api/health
+    autoDeploy: true
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: ENVIRONMENT
+        value: production
+      - key: ENABLE_OCR
+        value: "false"
+      - key: REPORT_RETENTION_HOURS
+        value: "24"
+      - key: GEMINI_MODEL
+        value: gemini-3.1-flash-lite
+      - key: GEMINI_FALLBACK_MODELS
+        value: gemini-flash-lite-latest
+      - key: GEMINI_API_KEY
+        sync: false   # set the secret in the Render dashboard
+      - key: ALLOWED_ORIGINS
+        sync: false   # e.g. https://your-app.vercel.app
+      - key: ALLOWED_ORIGIN_REGEX
+        sync: false   # optional, for Vercel preview URLs

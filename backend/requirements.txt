@@ -1,0 +1,12 @@
+# Core API (deployed). OCR is optional: see requirements-ocr.txt
+fastapi==0.143.1
+uvicorn[standard]==0.54.0
+pydantic==2.14.1
+python-multipart==0.0.32
+python-dotenv==1.2.4
+httpx==0.28.1
+pymupdf==1.28.2
+pillow==12.3.0
+numpy==2.4.6
+reportlab==5.0.1
+uharfbuzz==0.56.3

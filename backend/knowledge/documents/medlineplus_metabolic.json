@@ -1,0 +1,177 @@
+{
+  "collection": "MedlinePlus Medical Tests - metabolic, kidney and electrolytes",
+  "publisher": "MedlinePlus, U.S. National Library of Medicine",
+  "license": "MedlinePlus medical test information is public domain (https://medlineplus.gov/about/using/usingcontent/). Passages are short paraphrased summaries, not verbatim copies. Source: MedlinePlus, National Library of Medicine.",
+  "retrieved": "2026-10-14",
+  "documents": [
+    {
+      "id": "mlp-glucose",
+      "title": "Blood Glucose Test",
+      "url": "https://medlineplus.gov/lab-tests/blood-glucose-test/",
+      "lastUpdated": "2024-12-30",
+      "parameters": ["Fasting Glucose"],
+      "passages": [
+        {"id": "mlp-glucose-1", "topics": ["definition"],
+         "text": "A blood glucose test measures the level of glucose (sugar), the body's main energy source. The hormone insulin helps move glucose from the blood into cells. Fasting blood sugar is one type of glucose test."},
+        {"id": "mlp-glucose-2", "topics": ["high", "interpretation"],
+         "text": "Higher-than-normal glucose may mean a person has or is at risk of prediabetes or diabetes; other possible causes include thyroid, pancreas or adrenal problems, stress from serious illness or surgery, and certain medicines. The meaning depends on which test was done, other results and medical history."},
+        {"id": "mlp-glucose-3", "topics": ["low", "interpretation"],
+         "text": "In people without diabetes, low blood glucose is uncommon and may be related to certain medicines, liver or kidney disease, hormone problems or malnutrition."}
+      ]
+    },
+    {
+      "id": "mlp-a1c",
+      "title": "Hemoglobin A1C (HbA1c) Test",
+      "url": "https://medlineplus.gov/lab-tests/hemoglobin-a1c-hba1c-test/",
+      "lastUpdated": "2025-05-20",
+      "parameters": ["HbA1c"],
+      "passages": [
+        {"id": "mlp-a1c-1", "topics": ["definition", "relationship"],
+         "text": "An HbA1c test shows the average blood glucose level over the past two to three months by measuring the percentage of hemoglobin coated with glucose. It differs from a single glucose reading, which reflects only that moment."},
+        {"id": "mlp-a1c-2", "topics": ["high", "reference range", "interpretation", "doctor"],
+         "text": "Commonly used HbA1c cut-offs are below 5.7% (normal), 5.7% to 6.4% (prediabetes) and 6.5% or higher (diabetes). Providers often use more than one test to diagnose diabetes, so a high result may be followed by a repeat A1C, fasting glucose or glucose tolerance test."},
+        {"id": "mlp-a1c-3", "topics": ["interpretation", "relationship"],
+         "text": "Conditions that affect red blood cells, such as anemia, as well as kidney failure and liver disease, can make A1C results less accurate."}
+      ]
+    },
+    {
+      "id": "mlp-bun",
+      "title": "BUN (Blood Urea Nitrogen)",
+      "url": "https://medlineplus.gov/lab-tests/bun-blood-urea-nitrogen/",
+      "lastUpdated": "2024-10-27",
+      "parameters": ["Blood Urea Nitrogen"],
+      "passages": [
+        {"id": "mlp-bun-1", "topics": ["definition"],
+         "text": "A BUN test measures urea nitrogen, a waste product formed when the body breaks down protein. The kidneys remove it from the blood into urine."},
+        {"id": "mlp-bun-2", "topics": ["high", "low", "interpretation", "relationship"],
+         "text": "A high BUN can be a sign the kidneys are not working well, but it can also be raised by dehydration, burns, certain medicines or a high-protein diet. A low BUN can be seen with low protein intake, malnutrition or liver disease. BUN is one measure of kidney function and is often considered with creatinine and eGFR."}
+      ]
+    },
+    {
+      "id": "mlp-creatinine",
+      "title": "Creatinine Test",
+      "url": "https://medlineplus.gov/lab-tests/creatinine-test/",
+      "lastUpdated": "2023-12-05",
+      "parameters": ["Serum Creatinine"],
+      "passages": [
+        {"id": "mlp-creatinine-1", "topics": ["definition"],
+         "text": "Creatinine is a normal waste product made when muscles are used. The kidneys normally filter it from the blood into urine, so creatinine can build up in the blood if the kidneys are not working well."},
+        {"id": "mlp-creatinine-2", "topics": ["interpretation", "relationship"],
+         "text": "Creatinine alone is not the best measure of kidney function because people make different amounts depending on muscle mass, diet, age and activity. Blood creatinine is used to calculate eGFR, and it may be compared with BUN from the same test."},
+        {"id": "mlp-creatinine-3", "topics": ["high", "interpretation", "doctor"],
+         "text": "A single high creatinine result cannot diagnose a specific condition; retesting or other kidney tests are often needed. A normal creatinine result also does not always mean the kidneys are healthy."}
+      ]
+    },
+    {
+      "id": "mlp-egfr",
+      "title": "Estimated Glomerular Filtration Rate (eGFR) and GFR Tests",
+      "url": "https://medlineplus.gov/lab-tests/estimated-glomerular-filtration-rate-egfr-and-gfr-tests/",
+      "lastUpdated": "2026-09-30",
+      "parameters": ["eGFR"],
+      "passages": [
+        {"id": "mlp-egfr-1", "topics": ["definition", "relationship"],
+         "text": "eGFR estimates how well the kidneys filter waste from the blood. It is usually calculated from blood creatinine together with age, sex and body size, and sometimes from cystatin C."},
+        {"id": "mlp-egfr-2", "topics": ["low", "interpretation", "doctor"],
+         "text": "eGFR is not a perfect test: it can be abnormal without kidney damage and may miss some damage. A lower-than-usual eGFR may lead a provider to order other kidney tests, such as a urine protein test."}
+      ]
+    },
+    {
+      "id": "mlp-electrolytes",
+      "title": "Electrolyte Panel",
+      "url": "https://medlineplus.gov/lab-tests/electrolyte-panel/",
+      "lastUpdated": "2024-03-12",
+      "parameters": ["Sodium", "Potassium", "Chloride", "Bicarbonate"],
+      "passages": [
+        {"id": "mlp-electrolytes-1", "topics": ["definition", "panel", "relationship"],
+         "text": "Electrolytes such as sodium, potassium, chloride and bicarbonate are electrically charged minerals that help balance the body's water and acid-base (pH) level and support muscle, nerve and heart function. They are usually measured together in an electrolyte panel."},
+        {"id": "mlp-electrolytes-2", "topics": ["interpretation", "relationship"],
+         "text": "Electrolyte levels can shift when the body's water balance changes, for example with dehydration. Abnormal levels can be related to many conditions and to certain medicines such as diuretics, and do not necessarily mean a problem needing treatment."}
+      ]
+    },
+    {
+      "id": "mlp-sodium",
+      "title": "Sodium Blood Test",
+      "url": "https://medlineplus.gov/lab-tests/sodium-blood-test/",
+      "lastUpdated": "2024-12-02",
+      "parameters": ["Sodium"],
+      "passages": [
+        {"id": "mlp-sodium-1", "topics": ["definition", "high", "low"],
+         "text": "Sodium is an electrolyte that helps control fluid balance and supports nerves and muscles; the body normally keeps it in a narrow range. Higher sodium can be associated with dehydration, and lower sodium with fluid or sodium loss (such as vomiting or diarrhea), fluid retention, or certain medicines."},
+        {"id": "mlp-sodium-2", "topics": ["interpretation", "relationship"],
+         "text": "Providers usually interpret sodium together with other electrolytes. Medicines, age, sex and medical conditions can raise or lower sodium."}
+      ]
+    },
+    {
+      "id": "mlp-potassium",
+      "title": "Potassium Blood Test",
+      "url": "https://medlineplus.gov/lab-tests/potassium-blood-test/",
+      "lastUpdated": "2024-11-12",
+      "parameters": ["Potassium"],
+      "passages": [
+        {"id": "mlp-potassium-1", "topics": ["definition"],
+         "text": "Potassium is an electrolyte that cells, nerves, the heart and muscles need to work properly. Most of the body's potassium is inside cells, and the kidneys help keep the blood level steady."},
+        {"id": "mlp-potassium-2", "topics": ["high", "low", "interpretation"],
+         "text": "High potassium is often due to more than one cause, including kidney problems or side effects of certain medicines. Low potassium can be related to fluid loss from diarrhea, vomiting or heavy sweating, or to certain diuretics."},
+        {"id": "mlp-potassium-3", "topics": ["interpretation", "doctor", "test preparation"],
+         "text": "Repeatedly clenching the fist during a blood draw can temporarily raise measured potassium and give an incorrect result."}
+      ]
+    },
+    {
+      "id": "mlp-chloride",
+      "title": "Chloride Blood Test",
+      "url": "https://medlineplus.gov/lab-tests/chloride-blood-test/",
+      "lastUpdated": "2024-11-05",
+      "parameters": ["Chloride"],
+      "passages": [
+        {"id": "mlp-chloride-1", "topics": ["definition", "high", "low"],
+         "text": "Chloride is an electrolyte, mainly from salt, that helps control body fluid, blood volume and blood pressure. High chloride can be associated with dehydration or kidney disease; low chloride with conditions such as heart failure or lung disease. Fluid intake, vomiting, diarrhea and some medicines can also affect it."}
+      ]
+    },
+    {
+      "id": "mlp-co2",
+      "title": "Carbon Dioxide (CO2) in Blood",
+      "url": "https://medlineplus.gov/lab-tests/carbon-dioxide-co2-in-blood/",
+      "lastUpdated": "2024-11-12",
+      "parameters": ["Bicarbonate"],
+      "passages": [
+        {"id": "mlp-co2-1", "topics": ["definition", "interpretation"],
+         "text": "Most carbon dioxide in the body is carried as bicarbonate (HCO3), an electrolyte that helps keep the blood's acid-base balance. Abnormal results may indicate the body is having difficulty maintaining that balance, which can involve the lungs, kidneys or an electrolyte imbalance."}
+      ]
+    },
+    {
+      "id": "mlp-calcium",
+      "title": "Calcium Blood Test",
+      "url": "https://medlineplus.gov/lab-tests/calcium-blood-test/",
+      "lastUpdated": "2024-12-02",
+      "parameters": ["Calcium"],
+      "passages": [
+        {"id": "mlp-calcium-1", "topics": ["definition"],
+         "text": "About 1% of the body's calcium is in the blood; the rest is in bones and teeth. Blood calcium is needed for nerves, muscles and the heart to work properly. A blood calcium test does not show how much calcium is in the bones."},
+        {"id": "mlp-calcium-2", "topics": ["high", "low", "interpretation", "relationship"],
+         "text": "High total calcium can be associated with overactive parathyroid glands or taking too much vitamin D over time. Low total calcium can be associated with low blood protein levels, too little calcium, vitamin D or magnesium, or kidney disease. Diet and medicines can also affect calcium."}
+      ]
+    },
+    {
+      "id": "mlp-uric-acid",
+      "title": "Uric Acid Test",
+      "url": "https://medlineplus.gov/lab-tests/uric-acid-test/",
+      "lastUpdated": "2026-07-15",
+      "parameters": ["Uric Acid"],
+      "passages": [
+        {"id": "mlp-uric-acid-1", "topics": ["definition", "high", "low"],
+         "text": "Uric acid is a waste product from the breakdown of purines and is normally filtered out by the kidneys. If it builds up, it can form crystals in joints (gout) or contribute to kidney stones, but many people have high uric acid without health problems. Low blood uric acid is uncommon and usually not a problem."}
+      ]
+    },
+    {
+      "id": "mlp-cmp",
+      "title": "Comprehensive Metabolic Panel (CMP)",
+      "url": "https://medlineplus.gov/lab-tests/comprehensive-metabolic-panel-cmp/",
+      "lastUpdated": "2023-12-04",
+      "parameters": ["Fasting Glucose", "Calcium", "Sodium", "Potassium", "Bicarbonate", "Chloride", "Albumin", "Total Protein", "Alkaline Phosphatase", "ALT (SGPT)", "AST (SGOT)", "Total Bilirubin", "Blood Urea Nitrogen", "Serum Creatinine"],
+      "passages": [
+        {"id": "mlp-cmp-1", "topics": ["panel", "interpretation"],
+         "text": "A comprehensive metabolic panel measures 14 substances, including glucose, calcium, electrolytes, albumin, total protein, liver enzymes (ALP, ALT, AST), bilirubin, BUN and creatinine. Providers compare all results together, and one or more abnormal results may need further tests to confirm or rule out a diagnosis."}
+      ]
+    }
+  ]
+}

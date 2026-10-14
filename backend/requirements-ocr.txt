@@ -1,0 +1,4 @@
+# Optional: OCR for scanned PDFs and photos (large; not installed on the free-tier deployment)
+-r requirements.txt
+paddleocr>=2.7.0
+opencv-python>=4.8.0
