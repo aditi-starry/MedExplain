@@ -1,21 +1,23 @@
 # MedExplain AI - upgrade progress checklist
 
-Last updated: 2026-10-14
+Last updated: 2026-10-15
 
-## Done
-- [x] Audit: backend deps were not installed anywhere; frontend imported a missing `ProcessingPage` (build broken);
-      Sprint 3 OCR tests were never collected by pytest; Gemini key was sent in the URL query string.
-- [x] Backend venv (`backend/.venv`, Python 3.11) and baseline tests.
-- [x] Knowledge base: 43 MedlinePlus sources / 78 paraphrased passages (`backend/knowledge/documents`), graph with 18 cited relationships (`backend/knowledge/graph.json`).
-- [x] BM25 retriever + synonym expansion + missing-evidence threshold (`app/services/knowledge_base.py`).
-- [x] Explanations rewritten: RAG + one batched Gemini call + validation + labelled fallback (`explanation_service.py`, `safety.py`, `insights.py`).
-- [x] Chat (`chat_service.py`), insights + doctor questions, comparison + report date, PDF (ReportLab + HarfBuzz, en/hi/mr).
-- [x] Security: per-report access tokens, unguessable IDs, magic-byte checks, retention purge, delete endpoint, rate limits, CORS from env, no stack traces.
-- [x] Backend tests: 71 passing (mocked AI).
+## Done (committed locally on branch `main`)
+- [x] Audit and stabilization (missing ProcessingPage, uninstalled deps, uncollected OCR tests, Gemini key in URL)
+- [x] RAG: MedlinePlus knowledge base (43 sources / 78 passages), BM25 retriever, graph (18 cited relationships)
+- [x] Evidence-grounded Gemini explanations with validation and labelled fallback; explainable rationale
+- [x] Chatbot, insights, doctor questions, comparison, PDF (en/hi/mr), security hardening
+- [x] Redesigned frontend with i18n (en/hi/mr); verified in a real browser at desktop and mobile widths
+- [x] Tests: backend 72 passed; frontend 25 passed; lint clean; production build OK
+- [x] README, knowledge/README, .env.example files, .gitignore, render.yaml, vercel.json
 
-## Remaining
-- [ ] Frontend: api client with tokens, i18n (en/hi/mr), redesign, chat, insights, sources, compare, PDF download, vitest tests, build.
-- [ ] README, .env.example, .gitignore, git init + commit, GitHub publish, Render/Vercel deployment configs, smoke tests.
+## Remaining (needs the owner)
+- [ ] Push to GitHub (owner chose not to push yet)
+- [ ] Deploy backend on Render (Blueprint) and frontend on Vercel; set env vars; smoke-test live URLs
+- [ ] Decide what to do with legacy files in `backend/uploads/` (git-ignored; may contain real patient data)
 
-## Notes
-- `backend/uploads/` holds files from earlier versions, including a real-looking 19-page lab report. Never commit; owner should delete if real.
+## Next steps when resuming
+1. `gh repo create ashmita-dev/medExplainAI --public --source . --push` (add `-c safe.directory=E:/medExplainAI` to git commands, or add it to git config)
+2. Render: New -> Blueprint -> repo; set GEMINI_API_KEY, ALLOWED_ORIGINS
+3. Vercel: import repo; set VITE_API_BASE_URL to the Render URL; then update ALLOWED_ORIGINS
+4. Smoke test: /api/health, upload fictional sample, explain, chat, PDF
