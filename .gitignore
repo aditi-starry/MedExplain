@@ -15,6 +15,7 @@ backend/.env
 __pycache__/
 *.py[cod]
 .venv/
+.venv*/
 venv/
 .pytest_cache/
 
